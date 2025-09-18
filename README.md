@@ -15,13 +15,15 @@ It showcases my skills, projects, and background, and also includes a **"Let's C
 - **Styling:** Bootstrap / Custom CSS
 - **Backend (Contact Form):** [MockAPI](https://mockapi.io/) (used for storing messages from `LetsConnect.jsx`)
 - **Deployment:** Vercel
-- my-portfolio/
+
+  
+my-portfolio/
 ├── public/
 ├── src/
-│ ├──assest
-│ │ ├──head shot pic
-│ │ ├──img
-│ │ ├──cv.pdf
+│ ├── assest/
+│ │ ├── head shot pic/
+│ │ ├── img/
+│ │ ├── cv.pdf
 │ ├── components/
 │ │ ├── Home.jsx
 │ │ ├── About.jsx
