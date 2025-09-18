@@ -16,7 +16,7 @@ It showcases my skills, projects, and background, and also includes a **"Let's C
 - **Backend (Contact Form):** [MockAPI](https://mockapi.io/) (used for storing messages from `LetsConnect.jsx`)
 - **Deployment:** Vercel
 
-  
+```
 my-portfolio/
 ├── public/
 ├── src/
@@ -34,7 +34,7 @@ my-portfolio/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 
 🌍 Live Demo
 Deployed on Vercel → https://my-portfolio-mu-olive-50.vercel.app/
