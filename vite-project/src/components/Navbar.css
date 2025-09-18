@@ -1,0 +1,48 @@
+/* src/components/Navbar.css */
+
+/* Logo font */
+.logo-font {
+  font-family: 'Caveat';
+  font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Nav links underline on active */
+.nav-link {
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #ff00ff, #7700ff);
+  border-radius: 2px;
+}
+
+/* Social icons */
+.navbar a svg {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar a svg:hover {
+  color: #ff00ff;
+}
+
+/* Gradient button */
+.connect-btn {
+  background: linear-gradient(90deg, #ff00ff, #7700ff);
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 6px 16px;
+}
+
+.connect-btn:hover {
+  opacity: 0.85;
+}
